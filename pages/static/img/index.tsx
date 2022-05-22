@@ -4,7 +4,7 @@ import type { NextPage } from 'next'
 const Img: NextPage = () => {
   return (
     <main>
-      {[...Array(250)].map((_, i) => <img key={i} src="/static.svg" width="32" height="32" alt="" decoding="async" />)}
+      {[...Array(250)].map((_, i) => <img key={i} src="/react-svg-benchmarks/static.svg" width="32" height="32" alt="" decoding="async" />)}
     </main>
   )
 }
