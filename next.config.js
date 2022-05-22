@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/react-svg-benchmarks',
   reactStrictMode: true,
   trailingSlash: true,
   webpack(config) {
