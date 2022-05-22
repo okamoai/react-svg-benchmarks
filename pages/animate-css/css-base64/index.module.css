@@ -1,0 +1,6 @@
+.spinner {
+  content: url("../../../public/animate-css.svg?base64");
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}

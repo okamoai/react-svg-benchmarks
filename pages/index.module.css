@@ -1,0 +1,25 @@
+.table {
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #666;
+  padding: 0.25em;
+}
+.table thead th,
+.table thead td {
+  background-color: #ccf;
+  font-weight: bold;
+}
+.table tbody th {
+  text-align: left;
+}
+.table tbody th.indent {
+  padding-left: 1em;
+}
+.table tbody td {
+  text-align: right;
+  white-space: nowrap;
+}
+
